@@ -1,5 +1,8 @@
+<!-- App.vue -->
 <template>
-  <div class="min-h-screen flex items-center justify-center">
-    <h1 class="text-3xl font-bold text-blue-600">TEST OK ✅</h1>
-  </div> 
+  <div class="min-h-screen text-white">  
+    <Navbar />
+    <RouterView />
+    <FooterBar />
+  </div>
 </template>
